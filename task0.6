@@ -1,0 +1,15 @@
+note over selain:
+piirtää ruudun sisällön 
+eli muistiinpanojen listan
+uudelleen
+end note
+note over selain:
+Lähettää JSON-
+muotoisen kutsun
+end note
+selain->palvelin: HTTP POST: https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over palvelin:
+Palvelin tallentaa 
+tiedon kantaan
+end note
+palvelin-->selain: Viesti: "{"message":"note created"}"
